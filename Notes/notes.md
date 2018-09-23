@@ -1,0 +1,4 @@
+- Tensors are similar to NumPy’s ndarrays, with the addition being that Tensors can also be used on a GPU to accelerate computing.
+- Any operation that mutates a tensor in-place is post-fixed with an _. For example: `x.copy_(y), x.t_(), will change x`
+- The Torch Tensor and NumPy array will share their underlying memory locations, and changing one will change the other.
+- 
